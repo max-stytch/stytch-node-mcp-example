@@ -1,4 +1,4 @@
-# Stytch B2C React example application
+# Stytch Node MCP Demo 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100632220/217049841-b9eeb72a-3e50-4074-839a-e64ee5d4a88c.png" width="750">
@@ -25,11 +25,11 @@ Follow the steps below to get this application fully functional and running usin
 2. Within your new Project, navigate to [SDK configuration](https://stytch.com/dashboard/sdk-configuration), and make the following changes:
 
    - Click **Enable SDK**.
-   - Under **Authorized environments** add the domain `http://localhost:3000`.
+   - Under **Authorized environments** add the domain `http://localhost:3001`.
 
      <img width="400" alt="Authorized environments" src="https://user-images.githubusercontent.com/100632220/217052985-2e6fc264-7b8b-452b-9d24-66a76c143d10.png">
 
-3. Navigate to [Redirect URLs](https://stytch.com/dashboard/redirect-urls), and add `http://localhost:3000/authenticate` as the types **Login** and **Sign-up**.
+3. Navigate to [Redirect URLs](https://stytch.com/dashboard/redirect-urls), and add `http://localhost:3001/authenticate` as the types **Login** and **Sign-up**.
 
    <img width="400" alt="Redirect URLs" src="https://user-images.githubusercontent.com/100632220/217054016-913cabda-098e-4436-9829-2f33e7db05a7.png">
 
@@ -40,7 +40,7 @@ Follow the steps below to get this application fully functional and running usin
 In your terminal clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/stytchauth/stytch-react-example.git
+git clone https://github.com/TODO-SORRY
 cd stytch-react-example
 npm i
 ```
@@ -59,11 +59,9 @@ After completing all the set up steps above the application can be run with the 
 npm start
 ```
 
-The application will be available at [`http://localhost:3000`](http://localhost:3000).
+The application will be available at [`http://localhost:3001`](http://localhost:3000).
 
 You'll be able to login with Email Magic Links and see your Stytch User object, Stytch Session, and see how logging out works.
-
-To run the app with an API backend available at port 3001 for use with the [Connected Apps CLI example](https://github.com/stytchauth/stytch-connected-apps-cli-example), run the following command:
 
 ```bash
 npm run server
